@@ -27,7 +27,7 @@ namespace Contador
                 button1 = ((Button)sender);
             }
             count++;
-            mensaje = "veces clikeado {0}";
+            mensaje = "veces clikeado: {0}";
             button1.Text = string.Format(mensaje,count);
             
         }
