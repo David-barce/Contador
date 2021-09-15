@@ -7,16 +7,14 @@
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Contador en xamarin" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        
-        
-        <Label Text="Primera Aplicacion en xamarin" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Alumno Victor David Barcenas" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Primera Aplicacion en Xamarin" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Alumno: Victor David Bárcenas Gómez" FontSize="16" Padding="30,0,30,0"/>
         <Label Text="Grupo: IDGS01" FontSize="16" Padding="30,0,30,0"/>
-
+        <Label Text=""/>
         <Button Text="Haz click"  AnchorX="35" AnchorY="15" HorizontalOptions="Center" BackgroundColor="LightSeaGreen"
                 Clicked="Handle_Clicked"/>
         <Label Text=""/>
-
+        <Label Text=""/>
         <Button Text="Resetear"  AnchorX="35" AnchorY="15" HorizontalOptions="Center" BackgroundColor="Coral"
                 Clicked="Reset_Clicked"/>
     </StackLayout>
